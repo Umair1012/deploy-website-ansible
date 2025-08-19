@@ -1,0 +1,4 @@
+# group_vars/amazon.yml
+web_root_path: /usr/share/nginx/html
+nginx_user: nginx
+

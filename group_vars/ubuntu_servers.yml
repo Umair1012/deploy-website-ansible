@@ -1,0 +1,4 @@
+# group_vars/ubuntu.yml
+nginx_user: www-data
+web_root_path: /var/www/html
+

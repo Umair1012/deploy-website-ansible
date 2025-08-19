@@ -10,7 +10,7 @@ events {
 http {
     server {
         listen {{ nginx_port }};;
-        server_name {{ server_name }};
+        server_name _;
 
         location / {
             root {{ web_root_path }};
